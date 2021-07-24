@@ -178,9 +178,10 @@ color: var(--primary-color) !important;
 
   }
 
+
   #main-nav .container{
     display: grid;
-    grid-template-columns: 6fr 3fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     padding: 1rem;
     align-items: center;
   }
@@ -336,5 +337,41 @@ grid-gap: 1.5rem;
 
 #main-footer .footer-container input[type='submit']{
   width: 90%;
+}
+
+/* help&contect page */
+
+#contact{
+  margin:3.8rem 0;
+}
+
+#contact .container{
+  background-color:var(--secondary-color) ;
+  width: 50%;
+}
+#contact .container h2{
+  text-align: center;
+}
+
+
+#contact .container form input,textarea {
+  display: block;
+  width: 100%;
+  padding: .4rem;
+  margin:.5rem 0;
+  font-size: 14px;
+}
+
+
+#contact .container form textarea{
+  height: 15rem;
+  
+}
+
+#contact .container form input:last-child{
+  width: 20%;
+  margin: auto;
+  margin-top: 1rem;
+ 
 }
 
