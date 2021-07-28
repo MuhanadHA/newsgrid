@@ -8,9 +8,11 @@
   grid-gap: 1.2rem;
 }
 
-#main-nav ul,#main-nav .logo{
-  justify-self: center
+#main-nav ul , #main-nav :first-child{
+  justify-self:center;
+  
 }
+
 
 #main-nav ul li a{
   padding: .50rem;
@@ -56,9 +58,13 @@
   }
 }
 
+/* contact and help */
+
 #contact .container{
   width: auto;
   margin: 0 .5rem;
 }
 
-
+#contact .container form input[type='submit']{
+width: 90%;
+}
