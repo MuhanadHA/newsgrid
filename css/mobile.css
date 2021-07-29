@@ -84,7 +84,3 @@ width: 90%;
 #join_club .container form input[type='submit']{
  width: 50%;
 }
-
-@media(max-width=1050px),(min-width=768px){
-  
-}
