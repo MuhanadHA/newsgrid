@@ -342,7 +342,7 @@ grid-gap: 1.5rem;
 /* help&contect page */
 
 #contact{
-  margin:3.8rem 0;
+  margin:4rem 0;
 }
 
 #contact .container{
@@ -365,13 +365,56 @@ grid-gap: 1.5rem;
 
 #contact .container form textarea{
   height: 15rem;
-  
 }
 
 #contact .container form input:last-child{
   width: 20%;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
  
+}
+
+/* Privacy Policy */
+
+#privacy_policy{
+  margin:4rem 0;
+}
+
+#privacy_policy .container{
+  width: 75%;
+  background-color: var(--dark-color);
+  color: white;
+}
+
+/* join */
+#join_club{
+  margin: 4rem 0;
+
+}
+
+#join_club .container{
+  background-color: var(--primary-color);
+  color: white;
+  width: 50%
+}
+
+#join_club .container h2{
+  text-align: center;
+}
+
+#join_club .container form input{
+  display: block;
+  width: 100%;
+  padding: .4rem;
+  margin:.5rem 0;
+  font-size: 14px;
+}
+
+#join_club .container form input[type="submit"]{
+width: 20%;
+margin: auto;
+margin-top: 2rem;
+ background-color: var(--secondary-color);
+
 }
 
